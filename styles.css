@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --yellow: #FAF546;
+    --black: #181A1C;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;    
+}
+
+body{
+    background-color: var(--yellow);
+    color: var(--black);
+    font-family: 'Roboto','Times New Roman', Times, serif;
+}
+
+
+div:first-of-type{
+    margin-top: 25vh; 
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Noto Serif", serif;
+}
+
+input{
+    width: 40vw;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    border-style: none;
+    text-indent: 1rem;
+    font-size: 2rem;
+    font-family: inherit;
+}
+
+button{
+    display: block;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 7vh;
+    width: 18vw;
+    border-radius: 8px;
+    border-style: none;
+    font-family: inherit;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--black);
+    color: var(--yellow);
+}
+
+#text{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#output{
+    padding-top: 4rem;
+    font-size: 3rem;
+    text-align: center;
+}
