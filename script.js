@@ -43,7 +43,7 @@ const checkInput = () => {
     if(!number.value || isNaN(numberInput)){
         output.innerHTML=`<p>Please enter a valid number.</p>`;
         return;
-    }else if (numberInput<0){
+    }else if (numberInput<=0){
         output.innerHTML=`<p>Please enter a number greater than or equal to 1.</p>`;
     }else if (numberInput>3999){
         output.innerHTML=`<p>Please enter a number less than or equal to 3999.</p>`;
